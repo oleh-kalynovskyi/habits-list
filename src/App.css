@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    list-style: none;
+    font-family: "Roboto",sans-serif;
   }
+
+html {
+    height: 100%;    
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to top, #fefcea, #f1da36);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#root {
+    max-width: 1124px;
+    padding: 0px 15px;
+    margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.CircularProgressbar-trail {
+    stroke: tomato !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.btn:hover {
+    color: rgb(127, 146, 255);
+}
+
+button {
+    transition: all 0.3s ease-out;
+    background-color: rgb(123, 123, 204);
+    color: oldlace;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+button:hover {
+    background-color: rgb(253, 245, 230);
+    color: rgb(123, 123, 204);
+
+}
+
+
+.main-title {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.form input {
+    font-size: 16px;
+    padding: 5px 2px 5px 2px;
+    margin-right: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent ;
+    transition: all 0.3s ease-out;
+}
+.info {
+    display: flex;
+    padding-bottom: 30px;
+}
+.info button {
+    margin-right: 20px;
+}
+.info span {
+    display: flex;
+    align-items: center;
+}
+.put-your-habits {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.habits-list {
+    width: 50%;
+    margin-right: 30px;
+}
+.habit-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.habit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.change-positon {
+    display: flex;
+    flex-direction: column;
+}
+.habit input {
+    margin: 0 10px;
+    zoom: 1.5;
+}
+.habit-text {
+    font-size: 16px;
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+.edit-habit-text {
+    display: flex;
+    align-items: center;
+}
+.habit-btn {
+    display: flex;
+}
+
+.chart {
+    width: 350px !important;
+    height: 350px;
+
+    margin-top: 55px;
+}
+.chart-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .main-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .habits-list {
+        width: 90%;
+        margin-right: 0;
+        margin-top: 55px;
+    }
+    .chart {
+        margin-top: 0;
+    }
+    .habit input {
+        zoom: 2;
+    }
 }
