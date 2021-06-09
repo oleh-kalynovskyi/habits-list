@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/oleh-kalynovskyi/habits-list/static/css/main.265358d9.chunk.css",
-    "main.js": "/oleh-kalynovskyi/habits-list/static/js/main.9de110ca.chunk.js",
-    "main.js.map": "/oleh-kalynovskyi/habits-list/static/js/main.9de110ca.chunk.js.map",
-    "runtime-main.js": "/oleh-kalynovskyi/habits-list/static/js/runtime-main.762466fe.js",
-    "runtime-main.js.map": "/oleh-kalynovskyi/habits-list/static/js/runtime-main.762466fe.js.map",
-    "static/css/2.6c0f60ba.chunk.css": "/oleh-kalynovskyi/habits-list/static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.d7473483.chunk.js": "/oleh-kalynovskyi/habits-list/static/js/2.d7473483.chunk.js",
-    "static/js/2.d7473483.chunk.js.map": "/oleh-kalynovskyi/habits-list/static/js/2.d7473483.chunk.js.map",
-    "index.html": "/oleh-kalynovskyi/habits-list/index.html",
-    "static/css/2.6c0f60ba.chunk.css.map": "/oleh-kalynovskyi/habits-list/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.265358d9.chunk.css.map": "/oleh-kalynovskyi/habits-list/static/css/main.265358d9.chunk.css.map",
-    "static/js/2.d7473483.chunk.js.LICENSE.txt": "/oleh-kalynovskyi/habits-list/static/js/2.d7473483.chunk.js.LICENSE.txt"
+    "main.css": "/habits-list/static/css/main.265358d9.chunk.css",
+    "main.js": "/habits-list/static/js/main.9de110ca.chunk.js",
+    "main.js.map": "/habits-list/static/js/main.9de110ca.chunk.js.map",
+    "runtime-main.js": "/habits-list/static/js/runtime-main.762466fe.js",
+    "runtime-main.js.map": "/habits-list/static/js/runtime-main.762466fe.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "/habits-list/static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.d7473483.chunk.js": "/habits-list/static/js/2.d7473483.chunk.js",
+    "static/js/2.d7473483.chunk.js.map": "/habits-list/static/js/2.d7473483.chunk.js.map",
+    "index.html": "/habits-list/index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "/habits-list/static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.265358d9.chunk.css.map": "/habits-list/static/css/main.265358d9.chunk.css.map",
+    "static/js/2.d7473483.chunk.js.LICENSE.txt": "/habits-list/static/js/2.d7473483.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.762466fe.js",
