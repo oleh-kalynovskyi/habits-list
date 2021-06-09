@@ -17,7 +17,6 @@ export default class lis extends Component {
         this.setState({
             changeText: e.target.value,
         })
-        console.log('f');
     }
     // open input for habit text
     EditMode = () => {

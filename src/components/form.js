@@ -99,7 +99,7 @@ export default class Form extends Component {
     upArrow = async (el) => {
         const ind = this.state.habits.indexOf( el )
         const pos = this.state.habits.splice( ind, 1 )
-        this.state.habits.splice( ind+1, 0, pos[0] )
+        this.state.habits.splice( ind-1, 0, pos[0] )
         this.setState({
             habits: this.state.habits
         });
@@ -109,7 +109,7 @@ export default class Form extends Component {
     downArrow = async (el) => {
         const ind = this.state.habits.indexOf( el )
         const pos = this.state.habits.splice( ind, 1 )
-        this.state.habits.splice( ind-  1, 0, pos[0] )
+        this.state.habits.splice( ind+1, 0, pos[0] )
         this.setState({
             habits: this.state.habits
         });
@@ -118,7 +118,7 @@ export default class Form extends Component {
 
     render() {
         const { habits } = this.state;
-        habits.reverse();
+        // habits.reverse();
         return (
         <div>
             <form className="form" onSubmit={this.handleSubmit}>
